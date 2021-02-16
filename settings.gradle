@@ -1,0 +1,3 @@
+rootProject.name = 'PALab1'
+include 'Main'
+
