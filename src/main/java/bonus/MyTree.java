@@ -1,5 +1,6 @@
-package optional;
+package bonus;
 
+//clasa nod in care se retine data si referinte catre nodurile adiacente
 class Node {
     public int info;
     public Node[] neighbours;
@@ -22,6 +23,7 @@ public class MyTree {
         maxDepth = ((int)(Math.random() * 10000)) % 2 + 5;
     }
 
+    // genereaza un arbore random
     private void generateRandom(Node node, int currentDepth) {
         if (currentDepth > maxDepth) {
             return;
@@ -42,9 +44,11 @@ public class MyTree {
     }
 
     public void generateRandomTree() {
+
         generateRandom(this.root, 0);
     }
 
+    // afiseaza arborele generat
     private void display(Node node, String spaces) {
         if(node == null)
             return;

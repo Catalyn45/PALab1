@@ -1,4 +1,4 @@
-package bonus;
+package optional;
 
 public class MatrixHandler {
     private final int rows;

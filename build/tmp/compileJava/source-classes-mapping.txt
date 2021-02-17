@@ -1,9 +1,9 @@
 compulsory/Worker.java
  compulsory.Worker
-bonus/MatrixHandler.java
- bonus.MatrixHandler
-optional/MyTree.java
- optional.MyTree
- optional.Node
+bonus/MyTree.java
+ bonus.MyTree
+ bonus.Node
+optional/MatrixHandler.java
+ optional.MatrixHandler
 Main.java
  Main

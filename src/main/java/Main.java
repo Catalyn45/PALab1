@@ -1,6 +1,6 @@
 import compulsory.*;
-import bonus.*;
 import optional.*;
+import bonus.*;
 
 public class Main {
     static void testCompulsory() {
@@ -35,7 +35,7 @@ public class Main {
 
     public static void main(String[] args) {
         // testCompulsory();
-        // testOptional(args);
-        testBonus();
+        testOptional(args);
+        //testBonus();
     }
 }
